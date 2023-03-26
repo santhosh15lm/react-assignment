@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import Cards from 'cards/Cards';
 import "./Home.css"
 import { history } from '_helpers';
-import Animated_Card from 'animated_card/Animated_Card';
 //import { userActions } from '_store';
 
 export { Home };
@@ -31,7 +30,6 @@ function Home() {
             <h1 className='home__heading'>Hi {authUser?.name}!</h1>
             <h1 className='home__heading'>Card Details: </h1>
             {/* <Cards /> */}
-            {<Animated_Card/>}
             <div className='btn__div'>
                 <button className="btn btn-primary" onClick={showAllCards}>View All Cards</button>
                 <button className='btn btn-primary' onClick={addNewCard}>Add New Card</button>
