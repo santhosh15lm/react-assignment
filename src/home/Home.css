@@ -1,0 +1,8 @@
+.btn__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home_heading{
+   text-align: center;
+}
