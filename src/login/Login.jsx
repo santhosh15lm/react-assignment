@@ -40,7 +40,7 @@ function Login() {
         <div className="col-md-6 offset-md-3 mt-5">
             <div className="alert alert-info">
                 Username: santhosh1234@example.com<br />
-                Password: santhosh1234
+                Password: pass1234
             </div>
             <div className="card">
                 <h4 className="card-header">Login</h4>
